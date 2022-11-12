@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#main-container {
+  background-color: rgba(0, 0, 0, 0.76);
+  width: 50%;
+  color: white;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+h2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 90px;
+}

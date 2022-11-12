@@ -21,39 +21,40 @@
     - The freeCodeCamp Team
 
     -->
-    <div>
-      <h1>freeCodeCamp Survey Form</h1>
-      <p>Thank you for taking the time to help us improve the platform</p>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <div id="main-container">
       <div>
-        <h2>Name:</h2>
-        <input type="text" placeholder="Enter your Name" /><br />
-
-        <h2>Email:</h2>
-        <input type="email" placeholder="Enter your Name" /><br />
-
-        <h2>Age:</h2>
-        <input type="number" placeholder="Enter your Name" /><br />
-
-        <h2>Which option best describes your current role?</h2>
-        <label for="current">
-          <select name="dropdown" id="current" required>
-            <option disabled selected value>Select the current value</option>
-            <option value="">student</option>
-            <option value="">lectures</option>
-            <option value="">full time courses</option>
-          </select>
-        </label>
-
         <div>
-          <h3>Would you recommend freeCodeCamp to a friend?</h3>
+          <h2>Name:</h2>
+          <input type="text" placeholder="Enter your Name" /><br />
 
-          <label for=""><input type="radio" checked />Definitly</label>
-          <label for=""><input type="radio" />Maybe</label>
-          <label for=""><input type="radio" />Not sure</label>
+          <h2>Email:</h2>
+          <input type="email" placeholder="Enter your Email" /><br />
+
+          <h2>Age:</h2>
+          <input type="number" placeholder="Age" /><br />
+
+          <h2>Which option best describes your current role?</h2>
+          <label for="current">
+            <select name="dropdown" id="current" required>
+              <option disabled selected value>Select the current value</option>
+              <option value="">student</option>
+              <option value="">lectures</option>
+              <option value="">full time courses</option>
+            </select>
+          </label>
+
+          <div>
+            <h3>Would you recommend freeCodeCamp to a friend?</h3>
+
+            <label for=""><input type="radio" checked />Definitly</label>
+            <label for=""><input type="radio" />Maybe</label>
+            <label for=""><input type="radio" />Not sure</label>
+          </div>
         </div>
       </div>
     </div>
-
     <script src="js/index.js"></script>
   </body>
 </html>
